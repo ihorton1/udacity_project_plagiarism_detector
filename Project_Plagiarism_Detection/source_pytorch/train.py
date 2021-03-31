@@ -119,7 +119,7 @@ if __name__ == '__main__':
     
     ## TODO: Add args for the three model parameters: input_features, hidden_dim, output_dim
     # Model Parameters
-    parser.add_argument('--input_features', type=int, default=5, metavar='N',
+    parser.add_argument('--input_features', type=int, default=4, metavar='N',
                         help='size of input features (default: 5)')
     parser.add_argument('--hidden_dim', type=int, default=64, metavar='N',
                         help='size of the hidden dimension (default: 64)')
